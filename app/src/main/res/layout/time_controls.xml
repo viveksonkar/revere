@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/time_controls"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/sixty_sec_timer"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="60s"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    <TextView android:id="@+id/fifteen_sec_timer"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="15s"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+    <TextView android:id="@+id/templates_ctrl"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Templates"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
